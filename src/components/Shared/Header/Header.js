@@ -19,19 +19,19 @@ export default function Header() {
                                 <li className="nav-item">
                                 <a className="nav-link" href="#">About</a>
                                 </li>
-                                <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Shop
-                                </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">iPhone 14 pro</a></li>
-                                    <li><hr className="dropdown-divider" /></li>
-                                    <li><a className="dropdown-item" href="#">iPhone 13</a></li>
-                                    <li><a className="dropdown-item" href="#">iPhone 12</a></li>
-                                </ul>
-                                </li>
+                                
+
+                                
+
+
                             </ul>
                         <div className="d-flex">
+                            <button className="btn btn-outline-dark cart-btn flex" type="submit">
+                            <svg className="cart-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                            </svg>
+                            Cart
+                            </button>
                             <button className="btn btn-success" type="submit">Register</button>
                             <button className="btn btn-primary" type="submit">Login</button>
                         </div>
@@ -40,4 +40,14 @@ export default function Header() {
             </nav>
     )    
 }
-                
+                        // <li className="nav-item dropdown">
+                        //         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        //             Shop
+                        //         </a>
+                        //         <ul className="dropdown-menu">
+                        //             <li><a className="dropdown-item" href="#">iPhone 14 pro</a></li>
+                        //             <li><hr className="dropdown-divider" /></li>
+                        //             <li><a className="dropdown-item" href="#">iPhone 13</a></li>
+                        //             <li><a className="dropdown-item" href="#">iPhone 12</a></li>
+                        //         </ul>
+                        //         </li>

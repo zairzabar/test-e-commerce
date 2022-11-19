@@ -9,6 +9,11 @@
     --text-primary: rgb(240, 248, 255);
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+}
+
 .nav-logo {
     margin-right: 0.5rem;
 }
@@ -21,4 +26,8 @@
 
 .btn {
     margin: 0 0.5rem;
+}
+
+.cart-icon {
+    margin-right: 0.3rem;
 }
