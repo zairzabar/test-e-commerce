@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-primary: rgb(33, 37, 41);
+    --text-primary: rgb(240, 248, 255);
+}
+
+.nav-logo {
+    margin-right: 0.5rem;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    margin: 0 0.5rem;
+}
