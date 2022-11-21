@@ -2,50 +2,30 @@ import './Header.css'
 
 export default function Header() {
     return (
-                <nav className="navbar navbar-expand-lg bg-light">
-                    <div className="container-fluid">
-                    <a className="navbar-brand flex" href="#">
-                    <svg className='nav-logo' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
-                    <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
-                    </svg>
-                    Zair's Den
-                    </a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                    </button>
-                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li className="nav-item">
-                                <a className="nav-link" href="#">About</a>
-                                </li>
-                                
-                            </ul>
-                        <div className="d-flex">
-                            <button className="btn btn-outline-dark cart-btn flex" type="submit">
-                            <svg className="cart-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-                            </svg>
-                            Cart
-                            </button>
-                            <button className="btn btn-success" type="submit">Register</button>
-                            <button className="btn btn-primary" type="submit">Login</button>
-                        </div>
-                        </div>
+        <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
+            <div className="container-fluid">
+                <div className="nav-btn">
+                    <a className="navbar-brand" href="#">Apni Dukan</a>
+                    <div>
+                        <button className="btn btn-outline-dark btn-success">Sign up</button>
+                        <button className="btn btn-outline-dark btn-primary">Sign in</button>
                     </div>
-            </nav>
+                </div>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
     )    
 }
-                        // <li className="nav-item dropdown">
-                        //         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        // <li classNameName="nav-item dropdown">
+                        //         <a classNameName="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         //             Shop
                         //         </a>
-                        //         <ul className="dropdown-menu">
-                        //             <li><a className="dropdown-item" href="#">iPhone 14 pro</a></li>
-                        //             <li><hr className="dropdown-divider" /></li>
-                        //             <li><a className="dropdown-item" href="#">iPhone 13</a></li>
-                        //             <li><a className="dropdown-item" href="#">iPhone 12</a></li>
+                        //         <ul classNameName="dropdown-menu">
+                        //             <li><a classNameName="dropdown-item" href="#">iPhone 14 pro</a></li>
+                        //             <li><hr classNameName="dropdown-divider" /></li>
+                        //             <li><a classNameName="dropdown-item" href="#">iPhone 13</a></li>
+                        //             <li><a classNameName="dropdown-item" href="#">iPhone 12</a></li>
                         //         </ul>
                         //         </li>
