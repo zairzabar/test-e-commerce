@@ -5,10 +5,12 @@ import Header from "../../components/Shared/Header/Header";
 
 export default function Home() {
     
+    let products;
+
     fetch("Product.json")
         .then((res) => res.json())
             .then((res) => {
-                console.log(res)
+                products = res
             })
     
     return (
@@ -16,6 +18,7 @@ export default function Home() {
             <Header />
             {/* Products */}
             <div>
+                
                 <ProductCard />
             </div>
             <Footer />
