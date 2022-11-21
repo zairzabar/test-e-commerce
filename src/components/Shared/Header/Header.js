@@ -18,14 +18,14 @@ export default function Header() {
         </nav>
     )    
 }
-                        // <li classNameName="nav-item dropdown">
-                        //         <a classNameName="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        // <li className="nav-item dropdown">
+                        //         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         //             Shop
                         //         </a>
-                        //         <ul classNameName="dropdown-menu">
-                        //             <li><a classNameName="dropdown-item" href="#">iPhone 14 pro</a></li>
-                        //             <li><hr classNameName="dropdown-divider" /></li>
-                        //             <li><a classNameName="dropdown-item" href="#">iPhone 13</a></li>
-                        //             <li><a classNameName="dropdown-item" href="#">iPhone 12</a></li>
+                        //         <ul className="dropdown-menu">
+                        //             <li><a className="dropdown-item" href="#">iPhone 14 pro</a></li>
+                        //             <li><hr className="dropdown-divider" /></li>
+                        //             <li><a className="dropdown-item" href="#">iPhone 13</a></li>
+                        //             <li><a className="dropdown-item" href="#">iPhone 12</a></li>
                         //         </ul>
                         //         </li>

@@ -1,13 +1,23 @@
-import ProductCard from "../../components/Home/ProductCard/ProdutCard";
+import ProductCard from "../../components/Home/ProductCard/ProductCard";
 import Footer from "../../components/Shared/Footer/Footer";
 import Header from "../../components/Shared/Header/Header";
 
 
 export default function Home() {
+    
+    fetch("Product.json")
+        .then((res) => res.json())
+            .then((res) => {
+                console.log(res)
+            })
+    
     return (
         <div>
             <Header />
-            <ProductCard />
+            {/* Products */}
+            <div>
+                <ProductCard />
+            </div>
             <Footer />
         </div>
     )
