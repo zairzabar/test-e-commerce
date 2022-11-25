@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import ProductCard from "../../components/Home/ProductCard/ProductCard";
 import Footer from "../../components/Shared/Footer/Footer";
 import Header from "../../components/Shared/Header/Header";
@@ -5,12 +6,12 @@ import Header from "../../components/Shared/Header/Header";
 
 export default function Home() {
     
-    let products;
+    const [products, setproducts] = useState([])
 
     fetch("Product.json")
         .then((res) => res.json())
             .then((res) => {
-                products = res
+                 setproducts(res)
             })
     
     return (
@@ -18,7 +19,7 @@ export default function Home() {
             <Header />
             {/* Products */}
             <div>
-                
+                <h1>{products && products[5].name}</h1>
                 <ProductCard />
             </div>
             <Footer />
